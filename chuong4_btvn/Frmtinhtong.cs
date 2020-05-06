@@ -36,7 +36,9 @@ namespace chuong4_btvn
             int a = Int32.Parse(txta.Text);
             int b = Int32.Parse(txtb.Text);
             int tong = a + b;
+
             String result = String.Format("a la: {0}; b la: {1}\nTong 2 so nguyen a va b la: {2}", txta.Text, txtb.Text, tong);
+            
             label3.Text = result;
             MessageBox.Show(result);
         }
